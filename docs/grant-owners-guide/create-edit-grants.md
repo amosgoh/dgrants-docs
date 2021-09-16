@@ -1,55 +1,33 @@
 ---
 sidebar_position: 1
+sidebar_label: Create & Edit Grants
+title: How to Create & Edit Grants
 ---
 
-# Create & Edit Grants
+## How to Create Grants
 
-Docusaurus can manage multiple versions of your docs.
+1. Click "Create Grant" on the dgrants home page
 
-## Create a docs version
+![](https://i.imgur.com/EKgB8Ly.png)
 
-Release a version 1.0 of your project:
+2. Fill in the Grant Title, Owner Address & Payee Address and click "Deploy Contract"
 
-```bash
-npm run docusaurus docs:version 1.0
-```
+![](https://i.imgur.com/PvsvEN8.png)
 
-The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.
+3. Once contract is succesfully deployed, click "Continue" and your Grant is set up! 
 
-Your docs now have 2 versions:
+![](https://i.imgur.com/RLapEfb.png)
 
-- `1.0` at `http://localhost:3000/docs/` for the version 1.0 docs
-- `current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**
+## How to Edit Grants 
 
-## Add a Version Dropdown
+1. Click on your Profile and select "Grants" to view your Grants 
 
-To navigate seamlessly across versions, add a version dropdown.
+2. TODO: Step here to edit grant is unclear 
 
-Modify the `docusaurus.config.js` file:
+![](https://i.imgur.com/pi0GxOu.png)
 
-```js title="docusaurus.config.js"
-module.exports = {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'docsVersionDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
-```
+3. Edit your Media, Details and Settings
 
-The docs version dropdown appears in your navbar:
+![](https://i.imgur.com/yzLDDMm.png)
 
-![Docs Version Dropdown](/img/tutorial/docsVersionDropdown.png)
-
-## Update an existing version
-
-It is possible to edit versioned docs in their respective folder:
-
-- `versioned_docs/version-1.0/hello.md` updates `http://localhost:3000/docs/hello`
-- `docs/hello.md` updates `http://localhost:3000/docs/next/hello`
+4. Click "Update" to save your changes to your Grant! 

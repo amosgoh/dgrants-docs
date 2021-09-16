@@ -4,40 +4,24 @@ sidebar_position: 1
 
 # Concepts
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+## Grants 
 
-- `src/pages/index.js` -> `localhost:3000/`
-- `src/pages/foo.md` -> `localhost:3000/foo`
-- `src/pages/foo/bar.js` -> `localhost:3000/foo/bar`
+Grants gives open source projects of all sizes the opportunity to seek and receive community funding.
 
-## Create your first React Page
+## Grant Rounds 
 
-Create a file at `src/pages/my-react-page.js`:
+Grant Rounds are collections of Grants (projects looking for funding) in a given period of time (e.g. quarterly for Gitcoin Grant Rounds). On top of the amount these projects will raise individually from their Contributors, there is also a Matching Pool for each Grant Round which matches funding based on the Quadratic Funding model. You can find more information [here on Quadratic Funding](https://wtfisqf.com/). 
 
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
+The current version only allows for the dgrants core team to create Grant Rounds, but not community members yet. Look forward to this in future updates! 
 
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
+## Grant Owners & Contributors 
 
-A new page is now available at `http://localhost:3000/my-react-page`.
+Grant owners are the team behind the Grants which are building projects that the Web3 community find meaningful. When putting up a Grant, they are looking for Contributors - who are supporters who would like to donate funds for their cause
 
-## Create your first Markdown Page
+## Cart 
 
-Create a file at `src/pages/my-markdown-page.md`:
+Similar to the shopping cart in e-commerce, The Cart is where you can add all the Grants you are interested in supporting.
 
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
+## Check Out 
 
-This is a Markdown page
-```
-
-A new page is now available at `http://localhost:3000/my-markdown-page`.
+Once you have confirmed all the Grants you'd like to support, you can check out the Cart. Once the transaction is successfully confirmed, the funds will be contributed and ready for the Grant Owners to claim once it is over. 
